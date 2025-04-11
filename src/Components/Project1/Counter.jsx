@@ -16,6 +16,7 @@ const Counter = () => {
     setCount(count-1)
   }
 
+
   return (
     <div className=' bg-black text-white w-[100vw] h-[100vh] flex flex-col justify-center items-center gap-y-4'>
       <div className=' text-7xl font-bold'>

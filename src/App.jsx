@@ -11,13 +11,13 @@ import File from './Components/Project8/File'
 const App = () => {
   return (
     <div>
-      {/* <Counter></Counter>
+      <Counter></Counter>
       <TodoList></TodoList>
       <Meals></Meals>
       <Calculator></Calculator>
       <DarkTheme></DarkTheme>
-      <SearchBar></SearchBar> */}
-      {/* <Testimonial></Testimonial> */}
+      <SearchBar></SearchBar>
+      <Testimonial></Testimonial>
       <File></File>
     </div>
   )
