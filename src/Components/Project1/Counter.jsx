@@ -4,7 +4,7 @@ const Counter = () => {
 
   const [count,setCount] = useState(0)
  
-  function IncrementHandler(params) {
+  function IncrementHandler() {
     setCount(count+1)
   }
 
@@ -12,7 +12,7 @@ const Counter = () => {
     setCount(0)
   }
 
-  function DecrementHandler(params) {
+  function DecrementHandler() {
     setCount(count-1)
   }
 

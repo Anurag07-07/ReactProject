@@ -6,7 +6,7 @@ const Meals = () => {
   const [meals,setMeals] = useState([])
 
   useEffect(()=>{
-    async function fetchMeals(params) {
+    async function fetchMeals() {
       const response = await axios.get("https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood")
       console.log(response.data.meals); 
       setMeals(response.data.meals)
